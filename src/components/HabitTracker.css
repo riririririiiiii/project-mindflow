@@ -1,0 +1,131 @@
+.habit-container {
+  background-color: white;
+  border-radius: var(--radius);
+  padding: 40px;
+  box-shadow: var(--shadow);
+}
+
+.habit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.habit-header h2 {
+  font-size: 2.9rem;
+  color: var(--green-main);
+}
+
+.edit-btn {
+  background-color: var(--green-main);
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.7rem;
+}
+
+.edit-btn:hover {
+  background-color: var(--green-accent);
+  transform: translateY(-2px);
+}
+
+.habit-input {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.habit-input input,
+.icon-select {
+  border: 1px solid #ccd3c9;
+  border-radius: 10px;
+  padding: 8px 12px;
+  font-size: 2rem;
+  flex: 1;
+  max-width: fit-content;
+}
+
+.add-btn {
+  background-color: var(--green-main);
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 10px;
+  font-size: 1.9rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-btn:hover {
+  background-color: var(--green-accent);
+}
+
+.habit-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.habit-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 14px;
+  padding: 14px 18px;
+  cursor: pointer;
+  transition: 0.25s ease;
+  box-shadow: var(--shadow);
+}
+
+.habit-item.done {
+  background-color: var(--green-accent);
+  color: white;
+}
+
+.status-icon {
+  font-size: 2.2rem;
+  color: var(--muted);
+  transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.habit-item.done .status-icon {
+  color: white;
+  transform: scale(1.2);
+}
+
+.habit-icon {
+  font-size: 2rem;
+  color: var(--green-main);
+  transition: transform 0.2s ease;
+}
+
+.habit-item.done .habit-icon {
+  color: white;
+  transform: scale(1.1);
+}
+
+.habit-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: var(--green-main);
+  cursor: pointer;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.habit-item:hover .delete-btn {
+  opacity: 1;
+}

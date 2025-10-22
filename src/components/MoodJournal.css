@@ -1,0 +1,135 @@
+.mood-journal {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  /* background: white; 
+    box-shadow: var(--shadow);
+  border-radius: 16px; */
+}
+
+.mood-journal h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.9rem;
+  color: var(--green-main);
+  margin-bottom: 25px;
+}
+
+.mood-textarea {
+  width: 85%;
+  min-height: 150px;
+  padding: 18px 22px;
+  font-family: "Poppins", sans-serif;
+  font-size: 2.05rem;
+  border-radius: 14px;
+  border: 1px solid #cfd4c8;
+  background-color: #f8faf6;
+  color: var(--text-main);
+  resize: none;
+  outline: none;
+  transition: all 0.3s ease;
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.mood-textarea:focus {
+  border-color: var(--green-accent);
+  box-shadow: 0 0 0 2px rgba(137, 169, 126, 0.25);
+}
+
+
+.mood-save-btn {
+  background-color: var(--green-main);
+  color: var(--white);
+  font-size: 2rem;
+  padding: 12px 28px;
+  margin: 20px 15px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mood-save-btn:hover {
+  background-color: var(--green-accent);
+  transform: translateY(-2px);
+}
+
+.mood-entries {
+  margin-top: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.mood-entries h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.2rem;
+  color: var(--green-main);
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.mood-entry-card {
+  background-color: #f5f6f2;
+  border-radius: 14px;
+  padding: 22px 26px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  font-size: 2rem;
+}
+
+.mood-entry-card:hover {
+  transform: translateY(-3px);
+}
+
+.entry-date {
+  font-size: 1.5rem;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.entry-mood {
+  font-weight: 600;
+  color: var(--green-main);
+  margin-bottom: 5px;
+}
+
+.entry-text {
+  font-size: 1.3rem;
+  color: var(--text-main);
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.entry-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.edit-entry-btn,
+.delete-entry-btn {
+  background: none;
+  border: 1px solid var(--green-main);
+  color: var(--green-main);
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.edit-entry-btn:hover {
+  background-color: var(--green-accent);
+  color: var(--white);
+}
+
+.delete-entry-btn:hover {
+  background-color: #b34e4e;
+  border-color: #b34e4e;
+  color: var(--white);
+}
+
