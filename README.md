@@ -57,11 +57,17 @@ MindFlow is a **full-stack React application** designed to help users track thei
    ```bash
    git clone <your-repo-url>
    cd <repo-folder>
+   
 Install dependencies
 
 npm install
+
+
 Start the development server
 
 npm start
+
+
 Open in browser
-Navigate to http://localhost:5173 to see the app in action.
+Navigate to http://localhost:5173
+ to see the app in action.
