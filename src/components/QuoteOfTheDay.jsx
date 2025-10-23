@@ -7,19 +7,26 @@ export default function QuoteOfTheDay() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const fetchQuote = async () => {
+    async function fetchQuote() {
       try {
-        const res = await fetch("https://api.allorigins.win/get?url=https://zenquotes.io/api/today");
-        if (!res.ok) throw new Error("Failed to fetch quote");
+        const res = await fetch(
+          "https://api.allorigins.win/get?url=https://zenquotes.io/api/today"
+        );
         const data = await res.json();
         const parsed = JSON.parse(data.contents);
-        setQuote(parsed[0]);
+
+        setQuote({
+          content: parsed[0].q,
+          author: parsed[0].a,
+        });
+
       } catch (err) {
-        setError(err.message);
+        console.error("Ошибка при загрузке цитаты:", err);
+        setError("Failed to load quote");
       } finally {
         setLoading(false);
       }
-    };
+    }
     fetchQuote();
   }, []);
 
@@ -34,3 +41,4 @@ export default function QuoteOfTheDay() {
     </div>
   );
 }
+
