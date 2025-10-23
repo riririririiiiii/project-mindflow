@@ -51,23 +51,6 @@ MindFlow is a **full-stack React application** designed to help users track thei
 
 ---
 
-## Project Structure
-
-src/
-├─ assets/ # Emoji images for moods
-├─ components/ # React components
-│ ├─ AdviceList.jsx
-│ ├─ Dashboard.jsx
-│ ├─ HabitTracker.jsx
-│ ├─ MoodJournal.jsx
-│ ├─ MoodSelector.jsx
-│ ├─ MusicList.jsx
-│ └─ QuoteOfTheDay.jsx
-├─ data/
-│ └─ adviceData.json
-├─ App.jsx
-└─ App.css
-
 ## Getting Started
 
 1. **Clone the repository**
@@ -76,13 +59,9 @@ src/
    cd <repo-folder>
 Install dependencies
 
-bash
-Копировать код
 npm install
 Start the development server
 
-bash
-Копировать код
 npm start
 Open in browser
-Navigate to http://localhost:3000 to see the app in action.
+Navigate to http://localhost:5173 to see the app in action.
