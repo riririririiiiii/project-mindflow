@@ -1,0 +1,188 @@
+[
+  {
+    "id": 1,
+    "text": "Write down three specific self-care goals for the month and post them where you’ll see them.",
+    "mood": "Motivated",
+    "keywords": ["self-care", "goals", "planning"]
+  },
+  {
+    "id": 2,
+    "text": "Spend some time in nature today. Whether it’s taking a walk, smelling the flowers, or sitting by a tree, nature can make you feel calmer.",
+    "mood": "Stressed",
+    "keywords": ["nature", "relax", "calm"]
+  },
+  {
+    "id": 3,
+    "text": "Check in on your own mental health. Take a mental health test at mhascreening.org.",
+    "mood": "Anxious",
+    "keywords": ["mental health", "check", "screening"]
+  },
+  {
+    "id": 4,
+    "text": "Try sharing your mental health story on social media or with close friends to reduce stigma.",
+    "mood": "Proud",
+    "keywords": ["sharing", "community", "story"]
+  },
+  {
+    "id": 5,
+    "text": "Move your body in a way that feels right for you. Physical health supports mental health.",
+    "mood": "Motivated",
+    "keywords": ["exercise", "movement", "health"]
+  },
+  {
+    "id": 6,
+    "text": "Do a hobby you enjoy or try a new one to unwind and relax.",
+    "mood": "Happy",
+    "keywords": ["hobby", "relaxation", "stress relief"]
+  },
+  {
+    "id": 7,
+    "text": "Practice good sleep habits. Aim for 8 hours of quality rest.",
+    "mood": "Tired",
+    "keywords": ["sleep", "rest", "routine"]
+  },
+  {
+    "id": 8,
+    "text": "Create a calm space at home with things that make you feel relaxed.",
+    "mood": "Sad",
+    "keywords": ["calm", "home", "comfort"]
+  },
+  {
+    "id": 9,
+    "text": "Reflect on causes you care about and think of ways to support them.",
+    "mood": "Motivated",
+    "keywords": ["cause", "community", "support"]
+  },
+  {
+    "id": 10,
+    "text": "Spend 10 minutes journaling about how you feel today.",
+    "mood": "Anxious",
+    "keywords": ["journaling", "writing", "reflection"]
+  },
+  {
+    "id": 11,
+    "text": "Send a thank-you message to someone who has helped you recently.",
+    "mood": "Happy",
+    "keywords": ["gratitude", "connection", "thankful"]
+  },
+  {
+    "id": 12,
+    "text": "Declutter your space by donating old items. A clear space helps clear your mind.",
+    "mood": "Motivated",
+    "keywords": ["declutter", "donate", "organization"]
+  },
+  {
+    "id": 13,
+    "text": "Try a deep breathing exercise: inhale for 4 seconds, hold for 4, exhale for 4, hold for 4.",
+    "mood": "Stressed",
+    "keywords": ["breathing", "calm", "relaxation"]
+  },
+  {
+    "id": 14,
+    "text": "Read this affirmation: 'We’re all first-time humans. Give yourself grace.'",
+    "mood": "Sad",
+    "keywords": ["affirmation", "self-compassion", "motivation"]
+  },
+  {
+    "id": 15,
+    "text": "Take action for mental health awareness in your community.",
+    "mood": "Motivated",
+    "keywords": ["action", "awareness", "community"]
+  },
+  {
+    "id": 16,
+    "text": "Go somewhere new today — even a small change can refresh your mind.",
+    "mood": "Happy",
+    "keywords": ["explore", "adventure", "change"]
+  },
+  {
+    "id": 17,
+    "text": "Spend time with a pet to lower stress and boost your mood.",
+    "mood": "Stressed",
+    "keywords": ["pets", "animals", "relaxation"]
+  },
+  {
+    "id": 18,
+    "text": "Stay hydrated! Aim for 64 ounces of water today.",
+    "mood": "Motivated",
+    "keywords": ["hydration", "health", "energy"]
+  },
+  {
+    "id": 19,
+    "text": "Reconnect with someone you miss — call or meet them.",
+    "mood": "Sad",
+    "keywords": ["connection", "friends", "relationships"]
+  },
+  {
+    "id": 20,
+    "text": "Take a full rest without feeling guilty. You deserve it.",
+    "mood": "Tired",
+    "keywords": ["rest", "balance", "well-being"]
+  },
+  {
+    "id": 21,
+    "text": "Try a new coping skill today, like meditation or progressive relaxation.",
+    "mood": "Anxious",
+    "keywords": ["coping", "meditation", "relaxation"]
+  },
+  {
+    "id": 22,
+    "text": "Support a cause you care about with your time or donations.",
+    "mood": "Motivated",
+    "keywords": ["cause", "volunteer", "community"]
+  },
+  {
+    "id": 23,
+    "text": "Reflect on what boundaries you need for peace and communicate them.",
+    "mood": "Anxious",
+    "keywords": ["boundaries", "peace", "self-care"]
+  },
+  {
+    "id": 24,
+    "text": "Spend time connecting with your spirituality if that feels right for you.",
+    "mood": "Calm",
+    "keywords": ["spirituality", "faith", "inner peace"]
+  },
+  {
+    "id": 25,
+    "text": "Attend a local community event and meet new people.",
+    "mood": "Happy",
+    "keywords": ["community", "social", "events"]
+  },
+  {
+    "id": 26,
+    "text": "Plan a get-together with loved ones — connection boosts happiness.",
+    "mood": "Happy",
+    "keywords": ["family", "friends", "happiness"]
+  },
+  {
+    "id": 27,
+    "text": "Express creativity — paint, write, cook, or make something new.",
+    "mood": "Motivated",
+    "keywords": ["creativity", "art", "expression"]
+  },
+  {
+    "id": 28,
+    "text": "Ask someone how they’re really feeling today.",
+    "mood": "Kind",
+    "keywords": ["empathy", "listening", "connection"]
+  },
+  {
+    "id": 29,
+    "text": "Make a list of your strengths and celebrate them.",
+    "mood": "Proud",
+    "keywords": ["strengths", "confidence", "self-esteem"]
+  },
+  {
+    "id": 30,
+    "text": "Plan a small break or a short staycation to recharge.",
+    "mood": "Tired",
+    "keywords": ["break", "rest", "recharge"]
+  },
+  {
+    "id": 31,
+    "text": "Write a letter to yourself celebrating your progress this month.",
+    "mood": "Proud",
+    "keywords": ["self-love", "reflection", "growth"]
+  }
+]

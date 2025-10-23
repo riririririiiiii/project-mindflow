@@ -4,6 +4,8 @@ import MoodSelector from "./components/MoodSelector";
 import MoodJournal from "./components/MoodJournal";
 import HabitTracker from "./components/HabitTracker";
 import Dashboard from "./components/Dashboard";
+import AdviceList from "./components/AdviceList";
+import MusicList from "./components/MusicList";
 import { useState, useEffect } from "react";
 
 function App() {
@@ -50,6 +52,14 @@ function App() {
 
         <section className="dashboard-section">
           <Dashboard habits={habits} notes={notes} />
+        </section>
+
+        <section className="advice-section">
+          <AdviceList />
+        </section>
+
+        <section className="music-section">
+          <MusicList />
         </section>
       </main>
 
